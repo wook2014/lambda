@@ -1,7 +1,7 @@
 // ==========================================================================
 //                                  lambda
 // ==========================================================================
-// Copyright (c) 2019, Sara Hetzel and MPI für Molekulare Genetik
+// Copyright (c) 2019-2024, Sara Hetzel and MPI für Molekulare Genetik
 // All rights reserved.
 //
 // This file is part of Lambda.
