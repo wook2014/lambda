@@ -16,15 +16,15 @@ defaults:
 jobs:
   build:
     name: ${{ matrix.name }}
-    runs-on: macos-11
+    runs-on: macos-13
     timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix:
         include:
-          - name: "gcc13"
-            cxx: "g++-13"
-            cc: "gcc-13"
+          - name: "gcc12"
+            cxx: "g++-12"
+            cc: "gcc-12"
             build_type: Release
 
           - name: "gcc11"

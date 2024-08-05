@@ -1,7 +1,7 @@
 // ==========================================================================
 //                                  lambda
 // ==========================================================================
-// Copyright (c) 2013-2020, Hannes Hauswedell <h2 @ fsfe.org>
+// Copyright (c) 2013-2024, Hannes Hauswedell <h2 @ fsfe.org>
 // Copyright (c) 2016-2020, Knut Reinert and Freie Universität Berlin
 // All rights reserved.
 //
@@ -94,8 +94,8 @@ inline AlphabetEnum detectSeqFileAlphabet(std::string const & path)
     else if (all_valid<bio::alphabet::dna15>(seq))
     {
         std::cerr << "\nWARNING: You query file was detected as non-standard DNA, but it could be AminoAcid, too.\n"
-                     "To explicitly read as AminoAcid, add '--query-alphabet aminoacid'.\n"
-                     "To ignore and disable this warning, add '--query-alphabet dna5'.\n";
+                     "To explicitly read as AminoAcid, add '--input-alphabet aminoacid'.\n"
+                     "To ignore and disable this warning, add '--input-alphabet dna5'.\n";
         return AlphabetEnum::DNA5;
     }
     else if (all_valid<bio::alphabet::aa27>(seq))

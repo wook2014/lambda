@@ -1,7 +1,7 @@
 // ==========================================================================
 //                                  lambda
 // ==========================================================================
-// Copyright (c) 2013-2020, Hannes Hauswedell <h2 @ fsfe.org>
+// Copyright (c) 2013-2024, Hannes Hauswedell <h2 @ fsfe.org>
 // Copyright (c) 2016-2020, Knut Reinert and Freie Universität Berlin
 // All rights reserved.
 //
@@ -208,7 +208,7 @@ void argConv0(LambdaOptions & options)
 
     // query file
     if (options.qryOrigAlphabet ==
-        AlphabetEnum::DNA4) // means "auto", as dna4 not valid as argument to --query-alphabet
+        AlphabetEnum::DNA4) // means "auto", as dna4 not valid as argument to --input-alphabet
     {
         myPrint(options, 1, "Detecting query alphabet... ");
         options.qryOrigAlphabet = detectSeqFileAlphabet(options.queryFile);

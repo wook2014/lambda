@@ -1,7 +1,7 @@
 // ==========================================================================
 //                                  lambda
 // ==========================================================================
-// Copyright (c) 2013-2020, Hannes Hauswedell <h2 @ fsfe.org>
+// Copyright (c) 2013-2024, Hannes Hauswedell <h2 @ fsfe.org>
 // Copyright (c) 2016-2020, Knut Reinert and Freie Universität Berlin
 // All rights reserved.
 //
@@ -96,12 +96,12 @@ inline void sharedSetup(sharg::parser & parser)
     // Set short description, version, and date
     parser.info.version  = SEQAN_APP_VERSION;
     parser.info.date     = __DATE__;
-    parser.info.citation = "Hauswedell et al (2014); doi: 10.1093/bioinformatics/btu439";
+    parser.info.citation = "Hauswedell & Hetzal et al (2024); doi: 10.1093/bioinformatics/btae097";
     parser.info.short_copyright =
-      "2013-2020 Hannes Hauswedell, released under the GNU AGPL v3 (or later); "
+      "2013-2024 Hannes Hauswedell & Sara Hetzel, released under the GNU AGPL v3 (or later); "
       "2016-2020 Knut Reinert and Freie Universität Berlin, released under the 3-clause-BSDL";
     parser.info.long_copyright =
-      " Copyright (c) 2013-2020, Hannes Hauswedell\n"
+      " Copyright (c) 2013-2024, Hannes Hauswedell & Sara Hetzel\n"
       " All rights reserved.\n"
       "\n"
       " This program is free software: you can redistribute it and/or modify\n"
