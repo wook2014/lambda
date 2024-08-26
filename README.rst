@@ -41,15 +41,15 @@ Before you can search, you need to have an index. You can
 
     % bin/lambda3 mkindexp -d db.fasta
 
-*(in case you want to create a nucleotide index, instead use ``mkindexn``)*
+*(in case you want to create a nucleotide index, instead use* ``mkindexn`` *)*
 
 After that running Lambda is as simple as
 
 ::
 
-    % bin/lambda3 searchp -q query.fasta -i db.fasta.lambda
+    % bin/lambda3 searchp -q query.fasta -i db.fasta.lba
 
-*(in case you want to perform a nucleotide search, instead use ``searchn``)*
+*(in case you want to perform a nucleotide search, instead use* ``searchn`` *)*
 
 For a list of options, see the help pages:
 
